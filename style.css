@@ -1,0 +1,21 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+h1 {
+    color: #3f51b5;
+}
+
+.chat-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
